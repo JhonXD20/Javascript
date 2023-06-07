@@ -1,2 +1,0 @@
-# Javascript
-Estudo em javascript

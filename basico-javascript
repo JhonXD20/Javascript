@@ -1,0 +1,26 @@
+# Javascript
+Estudo em javascript
+// comando serve para imprimir coisas na tela
+// const é uma val constante, imutavel.
+console.log("Olá, mundo");
+//tag com finalidade de criar variáveis
+const nome = "joao Pedro";
+console.log(nome);
+//tbm é uma tag de variável
+// let já é possível fazer mais uma atribuição
+let idade = 18;
+console.log(idade);
+// indicadores matemáticos
+let resultado = 5 + 4;
+console.log(resultado);
+// potencia utiliza dois asteriscos ''**'' 
+
+// operador de atribuição
+resultado = resultado + 2;
+// resultado + = 2;
+console.log(resultado);
+//Mod é o resto da divisão com o simbolo de %
+// operadores condicionais "< > <= >= e == ! != {=== - quer saber se é identico valor e  tipo}" 
+let cond = 5 < 4;
+console.log(cond);
+// booleano é a variavel verdadeiro ou falso "true or false"
