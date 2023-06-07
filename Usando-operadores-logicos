@@ -1,0 +1,11 @@
+const idade = 18;
+let carteirinha = 1;// 1 ou 
+
+let adulto = ((idade >= 18) && (idade <= 60));
+
+if(adulto && carteirinha == false){
+  console.log("Inteira");
+}
+else{
+  console.log("meia");
+}
