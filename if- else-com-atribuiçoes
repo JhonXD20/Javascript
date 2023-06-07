@@ -1,0 +1,25 @@
+const idade = 61;
+let carteirinha = true;// 1 ou true ou 0 ou false
+// if e else
+// se menor 18 - paga meia menor de idade 
+// se maisor de 18 - paga meia apena com a carterinha adulto
+// se maior que 60 - paga meia idoso
+
+if(idade < 18){
+  console.log ("menor de idade paga meia");
+  
+}
+else if(idade <= 60){
+  console.log("adulto");
+  if(carteirinha == true){
+    console.log("que paga meia");
+  }
+  else{
+    console.log("paga inteira");
+  }
+  
+}
+else if(idade > 60){
+  console.log("idoso paga meia");
+  
+}
